@@ -22,5 +22,6 @@ Week folders (`week-01/`, `week-02/`, ...) are created as each week is actually 
 
 ## Status
 
-- Weeks 3–8 currently exist as native Canvas content in course 228 (module "Enlightenment: Political Revolution"). **Not yet copied into this repo.** Migrating that content here — and repointing Canvas to link solely to this repo — is the first task for the next build session.
-- Weeks 1–2 and 9–18 are not yet built anywhere.
+- **This course is built from scratch, weeks 1–18, directly against the course map and syllabi.** Canvas course 228 has a module ("Enlightenment: Political Revolution") that claims to cover weeks 3–8, but its lesson pages iframe-embed reskinned content from a different repo (`mjcivics-lessons`, the Middle School Civics course) — there is nothing usable there to migrate. This build treats that module as nonexistent. Reconciling with course 228 (disabling its module, repointing to this repo) is a separate future task, out of scope for this build.
+- No weeks are built yet. Week folders (`week-01/`, `week-02/`, ...) are created as each week is actually built.
+- Full build plan: `plan.md` in the course workshop folder (OneDrive: `Course workshops/HSMissWorldHist-Enlightenment/`), confirmed 2026-08-13. Ten thematic Canvas modules span weeks 1–18 — see plan.md Section 2 for the module map and numbering conventions.
