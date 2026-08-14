@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HS World History: Enlightenment to Present &mdash; 1.7 Lesson: Newton</title>
+<style>
+    body { margin: 0; padding: 0; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6fa; }
+    .canvas-frame { max-width: 1100px; margin: 0 auto; background: #ffffff; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+
+    /* ===== WIDGET CSS (byte-consistent with references/widgets.md) ===== */
+    .optima-widget { background: linear-gradient(135deg, #E8F6FB 0%, #F4F9FC 100%); border: 1px solid #C5DCE5; border-left: 5px solid #2196D0; border-radius: 8px; padding: 18px 22px; margin: 18px 0; }
+    .widget-kicker { font-size: 11px; color: #1B6A94; margin-bottom: 10px; letter-spacing: 0.4px; }
+    .widget-question { font-size: 17px; color: #0E1C42; margin-bottom: 14px; line-height: 1.55; }
+    .widget-row { background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 6px; padding: 12px 14px; margin-bottom: 10px; }
+    .widget-row-prompt { font-size: 15px; color: #0E1C42; margin-bottom: 8px; line-height: 1.5; font-style: italic; }
+    .widget-options { display: flex; flex-wrap: wrap; gap: 8px; }
+    .widget-options button { background: #FFFFFF; border: 1.5px solid #D0D9E8; border-radius: 8px; padding: 8px 14px; font-size: 14px; color: #0E1C42; cursor: pointer; transition: all 0.15s; font-family: inherit; }
+    .widget-options button:hover { background: #F4F6FA; border-color: #55C8E8; }
+    .widget-options button.selected { background: #0E1C42; color: #FFFFFF; border-color: #0E1C42; }
+    .widget-options button.correct { background: #D8F0DD; border-color: #2A9D5C; color: #1A6B3D; }
+    .widget-options button.incorrect { background: #FDECEC; border-color: #C0392B; color: #8A1F16; }
+    .widget-feedback { background: #FFFFFF; border-left: 3px solid #C7922C; padding: 10px 14px; font-size: 15px; color: #1a2340; line-height: 1.55; margin: 10px 0; display: none; border-radius: 4px; }
+    .widget-feedback.show { display: block; }
+    .row-feedback { padding: 8px 12px; margin-top: 8px; font-size: 14px; border-radius: 4px; line-height: 1.5; }
+    .row-feedback.correct { background: #D8F0DD; border-left: 3px solid #2A9D5C; color: #1A6B3D; }
+    .row-feedback.incorrect { background: #FDECEC; border-left: 3px solid #C0392B; color: #8A1F16; }
+    .widget-reset { background: transparent; border: 1px solid #C7922C; color: #C7922C; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; font-family: inherit; margin-top: 6px; }
+    .widget-reset:hover { background: #FDF3E3; }
+    .ow-scale .widget-options { justify-content: space-between; }
+    .ow-scale .widget-options button { flex: 1; text-align: center; }
+</style>
+</head>
+<body>
+<div class="canvas-frame">
+
+<!-- ===== HEADER ===== -->
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">HS WORLD HISTORY: ENLIGHTENMENT TO PRESENT</div>
+</div>
+
+<!-- ===== METADATA STRIP ===== -->
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 17px; color: #0e1c42;">Q1 &middot; Module 1</div>
+        <div style="font-size: 12px; color: #666;">The New Cosmos</div>
+    </div>
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 17px; color: #0e1c42;">1.7</div>
+    </div>
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Topic</div>
+        <div style="font-size: 17px; color: #0e1c42; font-style: italic;">Newton</div>
+    </div>
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Week</div>
+        <div style="font-size: 16px; color: #0e1c42;">Week 1 of 2</div>
+    </div>
+</div>
+
+<!-- ===== BODY WRAPPER ===== -->
+<div style="padding: 24px 34px;">
+
+    <a href="module-map.html" style="display: inline-block; font-size: 14px; color: #1B6A94; text-decoration: none; margin-bottom: 14px;">&larr; Back to the Module 1 Map</a>
+
+    <!-- Title strip -->
+    <div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #0e1c42; margin-bottom: 6px;">1.7</div>
+        <div style="font-size: 22px; color: #0e1c42; margin-bottom: 4px;">Newton</div>
+        <div style="font-size: 16px; color: #666;">Lesson &middot; A New Cosmos, Part II of II</div>
+    </div>
+
+    <!-- Glossary of Subject Vocabulary -->
+    <div style="background: #E8F6FB; border-left: 5px solid #2196D0; border-top: 3px solid #55C8E8; border-radius: 6px; padding: 14px 20px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #1B6A94; margin-bottom: 10px;">&#128161; GLOSSARY OF SUBJECT VOCABULARY</div>
+        <div style="font-size: 15px; color: #0E1C42; margin-bottom: 10px;">A few words from last lesson return here, plus a few new ones.</div>
+        <div style="font-size: 16px; color: #0E1C42; line-height: 1.8;">
+            <strong>gravitation</strong> (grav&#8209;ih&#8209;TAY&#8209;shun): the force of attraction between any two masses.<br>
+            <strong>hypothesis</strong> (hy&#8209;PAH&#8209;thuh&#8209;sis): an explanation proposed before it has been fully tested or proven.<br>
+            <strong>Scholium</strong> (SKOH&#8209;lee&#8209;um): a note or comment added onto the end of a scientific or mathematical text.<br>
+            <strong>empirical</strong> (em&#8209;PEER&#8209;ih&#8209;kul): based on direct observation or experiment rather than on theory or authority alone.
+        </div>
+    </div>
+
+    <!-- Today's Focus -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 12px;">&#128214; TODAY'S FOCUS</div>
+        <div style="font-size: 20px; color: #0e1c42; font-style: italic; margin-bottom: 10px;">What made the apple and the moon obey the same law?</div>
+        <div style="font-size: 18px; color: #1a2340; line-height: 1.65;">Copernicus moved the Earth. Galileo gathered evidence for the move. But neither of them explained why the planets orbit the way they do, or why anything falls at all. For nearly two thousand years, philosophy had assumed that the heavens and the Earth ran on two completely different sets of rules: perfect, unchanging circles above the moon, messy and corruptible motion below it. Isaac Newton spent much of his career erasing that line entirely. This lesson asks how one set of mathematical laws came to explain a falling apple, an orbiting moon, and the tides, all at once, and why Newton refused to say what gravity actually is.</div>
+    </div>
+
+    <!-- Objectives -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#127919; BY THE END OF THIS LESSON YOU WILL BE ABLE TO&hellip;</div>
+        <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;">
+            <div style="min-width: 26px; height: 26px; border-radius: 50%; background: #C7922C; color: #fff; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">1</div>
+            <div style="font-size: 18px; color: #1a2340; line-height: 1.65;"><strong>I will be able to</strong> explain how Newton's law of universal gravitation unified the physics of the heavens and the physics of Earth.</div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <div style="min-width: 26px; height: 26px; border-radius: 50%; background: #C7922C; color: #fff; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">2</div>
+            <div style="font-size: 18px; color: #1a2340; line-height: 1.65;"><strong>I will be able to</strong> evaluate why Newton refused to state a cause for gravity, and what that refusal reveals about his approach to evidence.</div>
+        </div>
+    </div>
+
+    <!-- Materials -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128203; WHAT YOU NEED FOR THIS LESSON</div>
+        <div style="display: flex; align-items: flex-start; gap: 10px; border-left: 3px solid #D0D9E8; padding-left: 14px;"><span style="color: #c7922c; font-size: 18px; flex-shrink: 0;">&#9654;</span>
+            <div style="font-size: 18px; color: #1a2340; line-height: 1.6;">This lesson page. Nothing else, though a notebook for the Try It activity below is handy.</div>
+        </div>
+    </div>
+
+    <!-- Main map -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128506;&#65039; MAIN MAP &middot; WHERE THIS LESSON HAPPENS</div>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/1631%20Blaeu%20Map%20of%20the%20British%20Isles%20%28England%2C%20Scotland%2C%20Ireland%29%20-%20Geographicus%20-%20BritanniaeHiberniae-blaeu-1631.jpg" alt="Willem Blaeu's 1631 map of the British Isles" style="max-width: 100%; border: 1px solid #D0D9E8; border-radius: 4px;" />
+        <div style="font-size: 13px; color: #666; margin-top: 8px; line-height: 1.5;">Willem Blaeu, <em>Magnae Britanniae et Hiberniae Tabula</em> (map of Great Britain and Ireland), 1631, drawn eleven years before Newton's birth. Unlike Copernicus in Poland or Galileo in Italy, Newton spent nearly his entire life within this one island.</div>
+        <div id="geo-glossary" style="margin-top: 14px; padding-top: 14px; border-top: 1px solid #EEF1F8;">
+            <div style="font-size: 11px; color: #6b7a99; margin-bottom: 8px;">GEOGRAPHICAL GLOSSARY</div>
+            <div style="font-size: 15px; color: #1a2340; line-height: 1.8;">
+                <strong>Woolsthorpe</strong> (WOOLZ&#8209;thorp): the manor house in Lincolnshire, England, where Newton was born and where he did much of his early work during the plague years.<br>
+                <strong>Cambridge</strong> (KAYM&#8209;brij): the university city in England where Newton studied and later taught at Trinity College.
+            </div>
+        </div>
+    </div>
+
+    <!-- PART 1 -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; PART 1 &middot; ONE UNIVERSE, ONE SET OF LAWS</div>
+
+        <div class="optima-widget ow-reflect">
+            <div class="widget-kicker">&#9889; QUICK CHECK-IN</div>
+            <div class="widget-question">Before you read on: do you think the same physical laws that explain a dropped pencil also explain why the moon stays in orbit instead of flying off into space? (No wrong answer, just check in with your gut reaction.)</div>
+            <div class="widget-options">
+                <button data-response="You already hold the idea Newton had to argue for from scratch. In 1660, almost no educated person assumed that.">&#128994; Yes, obviously, it's all just physics</button>
+                <button data-response="That instinct is actually closer to how nearly everyone reasoned before Newton: the sky felt like a different kind of place, governed by different rules.">&#128993; I'm not sure, they feel like different kinds of things</button>
+                <button data-response="Good instinct to name. Aristotle would have agreed with you completely, and so would most philosophers for two thousand years after him.">&#128308; No, the sky and the ground seem like separate worlds</button>
+            </div>
+            <div class="widget-feedback"></div>
+            <button class="widget-reset">Reset</button>
+        </div>
+
+        <h3 style="font-size: 20px; color: #0e1c42; margin: 18px 0 8px 0;">From Woolsthorpe to the Principia</h3>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">Isaac Newton was born in <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Woolsthorpe (WOOLZ-thorp): manor house in Lincolnshire, England.">Woolsthorpe</a>, England, the same year Galileo died, and studied at <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Cambridge (KAYM-brij): university city in England.">Cambridge</a>. When plague closed the university in 1665, Newton returned home to Woolsthorpe for nearly two years, and it was there, working largely alone, that he developed the mathematics now called calculus and began working out how gravity might behave. Newton later told friends that watching an apple fall in his mother's orchard helped set him thinking about whether the same force pulling it downward might reach all the way to the moon. Whether the story is accurate in every detail, it captures the real leap he made: taking a force everyone already knew about on Earth and asking whether it also ran the heavens.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">It took Newton another twenty years to work out the full mathematics and publish it. His book, <em>Philosophi&aelig; Naturalis Principia Mathematica</em> (<em>Mathematical Principles of Natural Philosophy</em>), appeared in 1687. In it, Newton laid out three laws of motion and a law of universal <strong>gravitation</strong>: every object in the universe attracts every other object, with a force that depends on their masses and the distance between them. The same equation that describes an apple falling to the ground also describes the moon's orbit around the Earth and the Earth's orbit around the sun. For the first time, one mathematical law governed the heavens and the Earth together.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">Newton was not the only mathematician working on these ideas. The German philosopher and mathematician Gottfried Leibniz developed calculus independently around the same time, using different notation, and a bitter priority dispute broke out between Newton's supporters and Leibniz's supporters over who deserved the credit. The argument dragged on for decades, hardened along national lines between England and the European continent, and was never fully settled to either side's satisfaction. It is a useful reminder that great discoveries are rarely made by one mind working in total isolation, whatever a tidy textbook credit line might suggest.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0;">The gravitation law mattered for reasons beyond physics, too. Ancient and medieval philosophy had treated the region above the moon as perfect and unchanging, governed by different rules than the corruptible world below it. Newton's law did not just add a new fact. It erased the boundary between the two, and gave Copernicus's moving Earth something it had always lacked: a reason, expressed in mathematics, why the planets move the way they do.</p>
+    </div>
+
+    <!-- Visual: unifying diagram -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 16px;">&#128202; ONE LAW, TWO KINDS OF MOTION</div>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px;">
+            <div style="text-align: center; width: 180px;">
+                <div style="font-size: 40px; margin-bottom: 6px;">&#127811;</div>
+                <div style="font-size: 15px; color: #0E1C42;">An apple falls straight down</div>
+            </div>
+            <div style="font-size: 28px; color: #C7922C; font-weight: bold;">=</div>
+            <div style="text-align: center; width: 200px;">
+                <div style="font-size: 40px; margin-bottom: 6px;">&#127769;</div>
+                <div style="font-size: 15px; color: #0E1C42;">The moon curves around the Earth instead of flying straight</div>
+            </div>
+        </div>
+        <div style="font-size: 15px; color: #666; text-align: center; margin-top: 14px;">Both are the same thing: an object's straight-line path being bent by gravity. The moon is always &ldquo;falling&rdquo; toward Earth. It simply has enough sideways speed to keep missing it.</div>
+    </div>
+
+    <!-- PART 2 -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; PART 2 &middot; &ldquo;I FRAME NO HYPOTHESES&rdquo;</div>
+
+        <h3 style="font-size: 20px; color: #0e1c42; margin: 0 0 8px 0;">What Newton Would Not Say</h3>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">Newton's law described exactly how gravity behaves: how strong it is, how it weakens with distance, how to calculate it. It did not explain what gravity actually is, or why masses attract each other at all. Some critics, particularly on the European continent, went further and accused Newton of reviving a kind of occult quality: a force acting invisibly across empty space with no physical connection between the objects involved, exactly the sort of thing mechanical philosophy at the time treated as unscientific almost by definition. Critics pressed him on this gap, and in 1713 Newton added a closing essay to a new edition of the <em>Principia</em>, called the General <strong>Scholium</strong>, to answer them.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">His answer surprised people expecting a mechanism. Newton wrote that he had not been able to discover the cause of gravity from the evidence, and famously added, in Latin, <em>hypotheses non fingo</em>: &ldquo;I frame no hypotheses.&rdquo; He meant that he would not present an unproven guess as though it were established science, no matter how badly people wanted an explanation. It was enough, he argued, that gravity demonstrably exists and that its mathematical laws account for the motions of the planets and the tides. This was a methodological choice as much as a scientific one: description first, speculation only when the evidence actually supports it.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0;">The same General Scholium then does something a modern reader might not expect from a founder of modern physics. Newton argued that the sheer order of the solar system, planets moving in the same direction, nearly in the same plane, at exactly the distances needed for stability, could not have arisen from mechanical causes alone. He pointed specifically to the fact that the planets all orbit in the same direction and nearly the same plane, a regularity that the law of gravity does not by itself require and cannot fully explain. He concluded that this order could &ldquo;only proceed from the counsel and dominion of an intelligent and powerful being.&rdquo; For Newton, discovering gravity's mathematical laws was not a step away from belief in God. He treated the order those laws revealed as evidence for exactly the opposite conclusion.</p>
+
+        <div style="background: #E8F6FB; border-left: 5px solid #2196D0; border-top: 3px solid #55C8E8; border-radius: 6px; padding: 14px 20px; margin: 14px 0;">
+            <div style="font-size: 11px; color: #1B6A94; margin-bottom: 8px;">&#128161; A CLOSER LOOK AT THE HISTORY</div>
+            <div style="font-size: 17px; color: #0E1C42; line-height: 1.6;">Last lesson raised the idea that the Scientific Revolution is often oversimplified as a story of science replacing religion. Newton is a good reason to be careful with that story a second time. He was arguably the most important scientist of the entire period, and he treated the mathematical order he discovered as proof of a designing intelligence, not evidence against one. Whatever changed between 1500 and 1700, it was not a simple march away from religious belief.</div>
+        </div>
+
+        <div class="optima-widget ow-scale">
+            <div class="widget-kicker">&#9889; TRY IT &middot; PROVEN, OR BEYOND THE PROOF?</div>
+            <div class="widget-question">Newton was careful to separate what his mathematics actually demonstrated from what he personally believed beyond it. For each claim below, decide where it falls.</div>
+
+            <div class="widget-row" data-correct="0" data-fb="Right. This is precisely what Book III of the Principia works out: the same law, the same constant, governing a falling object and an orbiting moon." data-hint="Ask whether this is the central mathematical result of the Principia itself, or something added on top of it.">
+                <div class="widget-row-prompt">1. The force pulling an apple to the ground and the force holding the moon in orbit are the same force, obeying the same mathematical law.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Demonstrated by the mathematics</button>
+                    <button data-choice="1">Mostly supported by the mathematics</button>
+                    <button data-choice="2">Mostly beyond what the mathematics shows</button>
+                    <button data-choice="3">A belief that goes beyond the math entirely</button>
+                </div>
+            </div>
+
+            <div class="widget-row" data-correct="3" data-fb="Right. Newton says this directly in the General Scholium, but it is a theological and philosophical claim, not something his equations for gravity can themselves prove." data-hint="This is not a claim about force or motion. Ask what kind of claim it actually is.">
+                <div class="widget-row-prompt">2. The order of the solar system proves the existence of an intelligent, governing being.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Demonstrated by the mathematics</button>
+                    <button data-choice="1">Mostly supported by the mathematics</button>
+                    <button data-choice="2">Mostly beyond what the mathematics shows</button>
+                    <button data-choice="3">A belief that goes beyond the math entirely</button>
+                </div>
+            </div>
+
+            <div class="widget-row" data-correct="1" data-fb="Right, with a small hedge: the tides required additional assumptions about the sun's and moon's pull that were less exact than the orbital mathematics itself, so Newton's case here was strong but not quite as airtight as gravitation's basic law." data-hint="This claim bundles the well-proven law of gravity together with a harder, less exact application of it. Which part is doing the extra work?">
+                <div class="widget-row-prompt">3. Gravity acts according to precise mathematical laws, and those laws explain the ocean tides.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Demonstrated by the mathematics</button>
+                    <button data-choice="1">Mostly supported by the mathematics</button>
+                    <button data-choice="2">Mostly beyond what the mathematics shows</button>
+                    <button data-choice="3">A belief that goes beyond the math entirely</button>
+                </div>
+            </div>
+
+            <div class="widget-row" data-correct="3" data-fb="Right. This is exactly the kind of claim Newton refused to make. Guessing at a physical mechanism for gravity is a hypothesis, and he said plainly that he would not frame one." data-hint="Reread what hypotheses non fingo actually meant. Would Newton have endorsed a guess about gravity's inner mechanism?">
+                <div class="widget-row-prompt">4. Gravity happens because an invisible fluid or spirit physically pushes objects together.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Demonstrated by the mathematics</button>
+                    <button data-choice="1">Mostly supported by the mathematics</button>
+                    <button data-choice="2">Mostly beyond what the mathematics shows</button>
+                    <button data-choice="3">A belief that goes beyond the math entirely</button>
+                </div>
+            </div>
+
+            <button class="widget-reset">Reset</button>
+        </div>
+
+        <div id="bio-newton" style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 18px 20px; margin: 16px 0 0 0; display: flex; gap: 16px; flex-wrap: wrap;">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Sir%20Isaac%20Newton%2C%201689.jpg" alt="Portrait of Isaac Newton by Godfrey Kneller, 1689" style="width: 110px; height: auto; border: 1px solid #D0D9E8; border-radius: 4px; flex-shrink: 0;" />
+            <div style="flex: 1; min-width: 220px;">
+                <div style="font-size: 11px; color: #c7922c; margin-bottom: 6px;">HISTORICAL FIGURE</div>
+                <div style="font-size: 17px; color: #0E1C42; margin-bottom: 2px;">Isaac Newton</div>
+                <div style="font-size: 13px; color: #666; margin-bottom: 8px;">NEW&#8209;tun &middot; 1642&ndash;1727</div>
+                <div style="font-size: 15px; color: #1a2340; line-height: 1.6;">Newton was an English mathematician and natural philosopher, born at Woolsthorpe and educated at Cambridge. During the plague years of the mid-1660s he developed the mathematics of calculus and began his work on motion and gravity, though he did not publish it for two more decades. His 1687 book, the <em>Principia</em>, laid out the three laws of motion and the law of universal gravitation, unifying the physics of Earth and the heavens for the first time. He later served as Master of the Royal Mint and president of the Royal Society, and was knighted in 1705.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- What You'll Do Next -->
+    <div style="background: #FFFFFF; border-top: 3px solid #0E1C42; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 16px;">&#10145;&#65039; WHAT YOU'LL DO NEXT</div>
+        <div style="display: flex; align-items: flex-start; gap: 14px; margin-bottom: 16px;">
+            <div style="min-width: 34px; height: 34px; border-radius: 50%; background: #0E1C42; color: #fff; font-size: 16px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">1</div>
+            <div>
+                <div style="font-size: 18px; color: #0e1c42; margin-bottom: 4px;"><strong>1.8 Primary Source: Newton's <em>Principia</em> (General Scholium)</strong></div>
+                <div style="font-size: 16px; color: #1a2340; line-height: 1.55;">Next, you will read Newton's own words on gravity, hypotheses, and the order of the universe. <a href="primary-source-2.html" style="color: #1B6A94;">Go to the primary source &rarr;</a></div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 14px;">
+            <div style="min-width: 34px; height: 34px; border-radius: 50%; background: #0E1C42; color: #fff; font-size: 16px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">2</div>
+            <div>
+                <div style="font-size: 18px; color: #0e1c42; margin-bottom: 4px;"><strong>1.9 Primary Source Report</strong></div>
+                <div style="font-size: 16px; color: #1a2340; line-height: 1.55;">This week's featured assignment, covering this lesson and Newton's Scholium. Your teacher has not published this assignment yet; check back once it appears in your course.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wrap-up -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 12px;">&#128170; KNOWING THE LIMITS OF WHAT YOU KNOW</div>
+        <p style="font-size: 18px; color: #1a2340; line-height: 1.65; margin: 0;">Self-government is not only about trusting your own reasoning. It is also about knowing exactly where that reasoning stops. Newton could have offered a confident-sounding guess about gravity's cause, and many readers would have accepted it simply because it came from him. He refused. Governing your own mind sometimes means answering a question with real evidence, and sometimes it means having the discipline to say, honestly, that you do not yet know. Both are forms of the same habit, and Copernicus, Galileo, and Newton each practiced a version of it in this week's lessons.</p>
+    </div>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; HS WORLD HISTORY: ENLIGHTENMENT TO PRESENT &middot; Quarter 1 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">Lesson 1.7 &middot; Newton</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</div>
+
+<!-- ===== WIDGET RUNTIME (byte-consistent with references/widgets.md) ===== -->
+<script>
+(function () {
+  document.addEventListener('click', function (e) {
+    var reset = e.target.closest('.widget-reset');
+    if (reset) {
+      var w = reset.closest('.optima-widget');
+      w.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected', 'correct', 'incorrect'); });
+      w.querySelectorAll('.widget-feedback').forEach(function (f) { f.classList.remove('show'); f.textContent = ''; });
+      w.querySelectorAll('.row-feedback').forEach(function (f) { f.remove(); });
+      return;
+    }
+    var rBtn = e.target.closest('.ow-reflect .widget-options button');
+    if (rBtn) {
+      var rw = rBtn.closest('.optima-widget');
+      rw.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected'); });
+      rBtn.classList.add('selected');
+      var fb = rw.querySelector('.widget-feedback');
+      fb.textContent = rBtn.dataset.response || '';
+      fb.classList.add('show');
+      return;
+    }
+    var sBtn = e.target.closest('.ow-select .widget-row .widget-options button, .ow-scale .widget-row .widget-options button');
+    if (sBtn) {
+      var row = sBtn.closest('.widget-row');
+      var correct = row.dataset.correct;
+      row.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected', 'correct', 'incorrect'); });
+      var right = sBtn.dataset.choice === correct;
+      sBtn.classList.add(right ? 'correct' : 'incorrect');
+      var text = right ? (sBtn.dataset.fb || row.dataset.fb || 'Right.') : (sBtn.dataset.fb || row.dataset.hint || 'Not quite. Try again.');
+      var rf = row.querySelector('.row-feedback') || row.appendChild(document.createElement('div'));
+      rf.className = 'row-feedback ' + (right ? 'correct' : 'incorrect');
+      rf.textContent = text;
+      return;
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
