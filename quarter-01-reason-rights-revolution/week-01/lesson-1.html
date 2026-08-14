@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HS World History: Enlightenment to Present &mdash; 1.3 Lesson: Copernicus and Galileo</title>
+<style>
+    body { margin: 0; padding: 0; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6fa; }
+    .canvas-frame { max-width: 1100px; margin: 0 auto; background: #ffffff; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+
+    /* ===== WIDGET CSS (byte-consistent with references/widgets.md) ===== */
+    .optima-widget { background: linear-gradient(135deg, #E8F6FB 0%, #F4F9FC 100%); border: 1px solid #C5DCE5; border-left: 5px solid #2196D0; border-radius: 8px; padding: 18px 22px; margin: 18px 0; }
+    .widget-kicker { font-size: 11px; color: #1B6A94; margin-bottom: 10px; letter-spacing: 0.4px; }
+    .widget-question { font-size: 17px; color: #0E1C42; margin-bottom: 14px; line-height: 1.55; }
+    .widget-row { background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 6px; padding: 12px 14px; margin-bottom: 10px; }
+    .widget-row-prompt { font-size: 15px; color: #0E1C42; margin-bottom: 8px; line-height: 1.5; font-style: italic; }
+    .widget-options { display: flex; flex-wrap: wrap; gap: 8px; }
+    .widget-options button { background: #FFFFFF; border: 1.5px solid #D0D9E8; border-radius: 8px; padding: 8px 14px; font-size: 14px; color: #0E1C42; cursor: pointer; transition: all 0.15s; font-family: inherit; }
+    .widget-options button:hover { background: #F4F6FA; border-color: #55C8E8; }
+    .widget-options button.selected { background: #0E1C42; color: #FFFFFF; border-color: #0E1C42; }
+    .widget-options button.correct { background: #D8F0DD; border-color: #2A9D5C; color: #1A6B3D; }
+    .widget-options button.incorrect { background: #FDECEC; border-color: #C0392B; color: #8A1F16; }
+    .widget-feedback { background: #FFFFFF; border-left: 3px solid #C7922C; padding: 10px 14px; font-size: 15px; color: #1a2340; line-height: 1.55; margin: 10px 0; display: none; border-radius: 4px; }
+    .widget-feedback.show { display: block; }
+    .row-feedback { padding: 8px 12px; margin-top: 8px; font-size: 14px; border-radius: 4px; line-height: 1.5; }
+    .row-feedback.correct { background: #D8F0DD; border-left: 3px solid #2A9D5C; color: #1A6B3D; }
+    .row-feedback.incorrect { background: #FDECEC; border-left: 3px solid #C0392B; color: #8A1F16; }
+    .widget-reset { background: transparent; border: 1px solid #C7922C; color: #C7922C; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; font-family: inherit; margin-top: 6px; }
+    .widget-reset:hover { background: #FDF3E3; }
+</style>
+</head>
+<body>
+<div class="canvas-frame">
+
+<!-- ===== HEADER ===== -->
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">HS WORLD HISTORY: ENLIGHTENMENT TO PRESENT</div>
+</div>
+
+<!-- ===== METADATA STRIP ===== -->
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 17px; color: #0e1c42;">Q1 &middot; Module 1</div>
+        <div style="font-size: 12px; color: #666;">The New Cosmos</div>
+    </div>
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 17px; color: #0e1c42;">1.3</div>
+    </div>
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Topic</div>
+        <div style="font-size: 17px; color: #0e1c42; font-style: italic;">Copernicus and Galileo</div>
+    </div>
+    <div style="flex: 1; min-width: 140px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Week</div>
+        <div style="font-size: 16px; color: #0e1c42;">Week 1 of 2</div>
+    </div>
+</div>
+
+<!-- ===== BODY WRAPPER ===== -->
+<div style="padding: 24px 34px;">
+
+    <a href="module-map.html" style="display: inline-block; font-size: 14px; color: #1B6A94; text-decoration: none; margin-bottom: 14px;">&larr; Back to the Module 1 Map</a>
+
+    <!-- Lavender title strip -->
+    <div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #0e1c42; margin-bottom: 6px;">1.3</div>
+        <div style="font-size: 22px; color: #0e1c42; margin-bottom: 4px;">Copernicus and Galileo</div>
+        <div style="font-size: 16px; color: #666;">Lesson &middot; A New Cosmos, Part I of II</div>
+    </div>
+
+    <!-- Glossary of Subject Vocabulary -->
+    <div style="background: #E8F6FB; border-left: 5px solid #2196D0; border-top: 3px solid #55C8E8; border-radius: 6px; padding: 14px 20px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #1B6A94; margin-bottom: 10px;">&#128161; GLOSSARY OF SUBJECT VOCABULARY</div>
+        <div style="font-size: 15px; color: #0E1C42; margin-bottom: 10px;">A few words in this lesson are worth reviewing before you read.</div>
+        <div style="font-size: 16px; color: #0E1C42; line-height: 1.8;">
+            <strong>cosmology</strong> (kahz&#8209;MAH&#8209;luh&#8209;jee): the study of the origin and structure of the universe as a whole.<br>
+            <strong>geocentric</strong> (jee&#8209;oh&#8209;SEN&#8209;trik): describing a model of the universe with Earth fixed at the center.<br>
+            <strong>heliocentric</strong> (hee&#8209;lee&#8209;oh&#8209;SEN&#8209;trik): describing a model of the universe with the sun at the center and the planets, including Earth, orbiting it.<br>
+            <strong>empirical</strong> (em&#8209;PEER&#8209;ih&#8209;kul): based on direct observation or experiment rather than on theory or authority alone.
+        </div>
+    </div>
+
+    <!-- Today's Focus -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 12px;">&#128214; TODAY'S FOCUS</div>
+        <div style="font-size: 20px; color: #0e1c42; font-style: italic; margin-bottom: 10px;">Did the Earth move, or did our minds?</div>
+        <div style="font-size: 18px; color: #1a2340; line-height: 1.65;">For well over a thousand years, nearly every astronomer, philosopher, and ordinary person in the Western world agreed on one basic fact about the universe: the Earth sat still at the center, and the sun, moon, planets, and stars circled around it. This was not a lazy guess. It was a carefully reasoned system, built by real mathematicians, that predicted eclipses, tracked the calendar, and guided sailors across open water for centuries. In the span of about a hundred years, two men working with nothing but geometry, patient observation, and a new invention called the telescope helped convince Europe to give that system up. This lesson asks what actually changed their minds, and what it cost them to say so out loud.</div>
+    </div>
+
+    <!-- Objectives -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#127919; BY THE END OF THIS LESSON YOU WILL BE ABLE TO&hellip;</div>
+        <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;">
+            <div style="min-width: 26px; height: 26px; border-radius: 50%; background: #C7922C; color: #fff; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">1</div>
+            <div style="font-size: 18px; color: #1a2340; line-height: 1.65;"><strong>I will be able to</strong> explain how Copernicus's and Galileo's models of the universe differed from the geocentric model that came before them.</div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <div style="min-width: 26px; height: 26px; border-radius: 50%; background: #C7922C; color: #fff; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">2</div>
+            <div style="font-size: 18px; color: #1a2340; line-height: 1.65;"><strong>I will be able to</strong> evaluate what kind of evidence actually persuaded astronomers to abandon a thousand years of geocentric thinking.</div>
+        </div>
+    </div>
+
+    <!-- Materials -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128203; WHAT YOU NEED FOR THIS LESSON</div>
+        <div style="display: flex; align-items: flex-start; gap: 10px; border-left: 3px solid #D0D9E8; padding-left: 14px;"><span style="color: #c7922c; font-size: 18px; flex-shrink: 0;">&#9654;</span>
+            <div style="font-size: 18px; color: #1a2340; line-height: 1.6;">This lesson page. Nothing else, though a notebook for the Try It activity below is handy.</div>
+        </div>
+    </div>
+
+    <!-- Main map -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128506;&#65039; MAIN MAP &middot; WHERE THIS LESSON HAPPENS</div>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/1644%20Europa%20Recens%20Blaeu.jpg" alt="Willem Blaeu's 1640 map of Europe, titled Europa recens Descripta" style="max-width: 100%; border: 1px solid #D0D9E8; border-radius: 4px;" />
+        <div style="font-size: 13px; color: #666; margin-top: 8px; line-height: 1.5;">Willem Blaeu, <em>Europa recens Descripta</em> (&ldquo;Europe, newly described&rdquo;), 1640, drawn within Galileo's own lifetime. Copernicus worked far to the northeast, on the Baltic coast of Poland. Galileo's career unfolded across northern and central Italy, hundreds of miles to the south.</div>
+        <div id="geo-glossary" style="margin-top: 14px; padding-top: 14px; border-top: 1px solid #EEF1F8;">
+            <div style="font-size: 11px; color: #6b7a99; margin-bottom: 8px;">GEOGRAPHICAL GLOSSARY</div>
+            <div style="font-size: 15px; color: #1a2340; line-height: 1.8;">
+                <strong>Krak&oacute;w</strong> (KRAH&#8209;koof): university city in southern Poland where Copernicus studied before beginning his career in the Church.<br>
+                <strong>Frombork</strong> (FROM&#8209;bork): a small cathedral town on Poland's Baltic coast, where Copernicus served as a church canon and wrote most of his book.<br>
+                <strong>Pisa</strong> (PEE&#8209;zah): a city in the Tuscany region of Italy, where Galileo was born nearby and held his first professorship.<br>
+                <strong>Padua</strong> (PAD&#8209;oo&#8209;ah): a university city then belonging to the Republic of Venice, where Galileo taught for eighteen years.<br>
+                <strong>Florence</strong> (FLOR&#8209;ens): the Tuscan capital and seat of the Medici family, where Galileo served as court mathematician.<br>
+                <strong>Rome</strong> (ROHM): seat of the Roman Catholic Church, where the Inquisition tried Galileo in 1633.
+            </div>
+        </div>
+    </div>
+
+    <!-- PART 1 -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; PART 1 &middot; A MODEL TOO SIMPLE TO IGNORE</div>
+
+        <div class="optima-widget ow-reflect">
+            <div class="widget-kicker">&#9889; QUICK CHECK-IN</div>
+            <div class="widget-question">Before you read on: how sure are you that the Earth orbits the sun rather than the other way around? (No wrong answer, just check in with yourself about what you already believe, and why.)</div>
+            <div class="widget-options">
+                <button data-response="Most people land here, and it is worth asking honestly: did you work that out yourself, or did you simply inherit it the way people in 1500 inherited the opposite belief?">&#128994; Completely sure, it's just a fact</button>
+                <button data-response="That is an honest and useful answer. Believing something true without being able to defend it is exactly the position most of Europe was in, on the other side, five hundred years ago.">&#128993; I believe it, but I could not really prove it myself</button>
+                <button data-response="Good, because this lesson is not really about the Earth and the sun. It is about how anyone, in any century, decides what to trust and why.">&#128308; Honestly, I've never thought hard about why</button>
+            </div>
+            <div class="widget-feedback"></div>
+            <button class="widget-reset">Reset</button>
+        </div>
+
+        <h3 style="font-size: 20px; color: #0e1c42; margin: 18px 0 8px 0;">Copernicus Moves the Center</h3>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">The old model came from the Greek astronomer Ptolemy, writing in the second century AD, and by the 1500s it had been refined for well over a thousand years. It placed Earth motionless at the center of the cosmos, with the sun, moon, and planets carried around it on nested spheres. To explain odd details, like planets that seem to slow down, stop, and briefly reverse direction in the night sky, astronomers had added smaller circles called epicycles: circles riding on circles. It was complicated, but it worked well enough to be trusted for over a millennium.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;"><a href="#bio-copernicus" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; font-weight: bold; text-decoration: none;" title="Nicolaus Copernicus (koh-PER-ni-kus), 1473-1543: Polish astronomer who proposed a sun-centered model of the universe.">Nicolaus Copernicus</a>, a Polish astronomer and church official, thought there might be a simpler way to explain the same observations. He studied in <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Krakow (KRAH-koof): university city in southern Poland.">Krak&oacute;w</a>, then in Italy, before returning north to serve as a church canon in <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Frombork (FROM-bork): Baltic coast cathedral town in Poland.">Frombork</a>, where he spent decades quietly sketching a system with the sun, not the Earth, near the center, and the Earth as just one more planet, spinning on its axis and circling the sun once a year. His book, <em>De revolutionibus orbium coelestium</em> (<em>On the Revolutions of the Heavenly Spheres</em>), was not published until 1543, the year he died.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">Here is the part a modern reader might not expect: Copernicus's system did not actually predict the planets' positions any better than Ptolemy's. He still used perfect circles instead of the elliptical orbits planets actually follow, so he still needed his own set of epicycles to make the numbers work. For decades, most astronomers who used his tables treated the sun-centered arrangement as a convenient calculating trick, not a claim about how the universe was really built. Copernicus had not proven heliocentrism. He had only shown that it was possible, and that took its own kind of courage.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0;">Copernicus's system slowly gained supporters over the following decades, especially among mathematicians who found it easier to work with even before anyone insisted it was literally true. The German astronomer Johannes Kepler later replaced Copernicus's perfect circles with ellipses, finally making the sun-centered model genuinely more accurate than Ptolemy's, not just more elegant. That refinement came decades after Copernicus's death, and even then it needed telescopic evidence from the sky itself, the kind Galileo was about to gather, before most working astronomers were willing to treat heliocentrism as more than a convenient trick for calculation.</p>
+
+        <div id="bio-copernicus" style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 18px 20px; margin: 16px 0 0 0; display: flex; gap: 16px; flex-wrap: wrap;">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nicolaus%20Copernicus.jpg" alt="19th-century engraved portrait of Nicolaus Copernicus, after an unknown original" style="width: 110px; height: auto; border: 1px solid #D0D9E8; border-radius: 4px; flex-shrink: 0;" />
+            <div style="flex: 1; min-width: 220px;">
+                <div style="font-size: 11px; color: #c7922c; margin-bottom: 6px;">HISTORICAL FIGURE</div>
+                <div style="font-size: 17px; color: #0E1C42; margin-bottom: 2px;">Nicolaus Copernicus</div>
+                <div style="font-size: 13px; color: #666; margin-bottom: 8px;">koh&#8209;PER&#8209;ni&#8209;kus &middot; 1473&ndash;1543</div>
+                <div style="font-size: 15px; color: #1a2340; line-height: 1.6;">Copernicus was a Polish astronomer, mathematician, and church official who spent decades quietly developing a sun-centered model of the universe. Educated at Krak&oacute;w and later in Italy, he served most of his life as a canon of the cathedral at Frombork, on Poland's Baltic coast. His book, <em>De revolutionibus orbium coelestium</em>, appeared only in the year of his death, and it argued that Earth is a planet in motion rather than a fixed center. Copernicus never lived to see his idea widely accepted. His own caution about publishing shows how radical it sounded, even to him.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The two models, side by side -->
+    <div style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 16px;">&#128202; THE TWO MODELS, SIDE BY SIDE</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 28px; justify-content: center;">
+            <div style="text-align: center;">
+                <div style="font-size: 15px; color: #0E1C42; margin-bottom: 10px;">The Old Model: Geocentric</div>
+                <div style="position: relative; width: 200px; height: 200px; margin: 0 auto;">
+                    <div style="position: absolute; inset: 0; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; inset: 26px; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; inset: 52px; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; inset: 78px; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; top: 50%; left: 50%; width: 22px; height: 22px; margin: -11px; border-radius: 50%; background: #2A6B9C; color: #fff; font-size: 10px; display: flex; align-items: center; justify-content: center;">E</div>
+                    <div style="position: absolute; top: 2px; left: 50%; width: 11px; height: 11px; margin-left: -5.5px; border-radius: 50%; background: #999999;"></div>
+                    <div style="position: absolute; top: 28px; left: 50%; width: 13px; height: 13px; margin-left: -6.5px; border-radius: 50%; background: #C7922C;"></div>
+                    <div style="position: absolute; top: 54px; left: 50%; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: #B5533C;"></div>
+                    <div style="position: absolute; top: 80px; left: 50%; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: #7A6BB0;"></div>
+                </div>
+                <div style="font-size: 13px; color: #666; margin-top: 8px; max-width: 200px;">Earth fixed at the center. Moon, sun, planets, and stars all circle around it.</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: 15px; color: #0E1C42; margin-bottom: 10px;">The New Model: Heliocentric</div>
+                <div style="position: relative; width: 200px; height: 200px; margin: 0 auto;">
+                    <div style="position: absolute; inset: 0; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; inset: 26px; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; inset: 52px; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; inset: 78px; border: 1px solid #D0D9E8; border-radius: 50%;"></div>
+                    <div style="position: absolute; top: 50%; left: 50%; width: 22px; height: 22px; margin: -11px; border-radius: 50%; background: #C7922C; color: #fff; font-size: 10px; display: flex; align-items: center; justify-content: center;">S</div>
+                    <div style="position: absolute; top: 2px; left: 50%; width: 9px; height: 9px; margin-left: -4.5px; border-radius: 50%; background: #A3762E;"></div>
+                    <div style="position: absolute; top: 28px; left: 50%; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: #C9A96B;"></div>
+                    <div style="position: absolute; top: 54px; left: 50%; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: #2A6B9C;"></div>
+                    <div style="position: absolute; top: 80px; left: 50%; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: #B5533C;"></div>
+                </div>
+                <div style="font-size: 13px; color: #666; margin-top: 8px; max-width: 200px;">The sun near the center. Earth is one planet among several, orbiting like the rest.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PART 2 -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; PART 2 &middot; GALILEO PUTS IT TO THE TEST</div>
+
+        <h3 style="font-size: 20px; color: #0e1c42; margin: 0 0 8px 0;">Galileo's Telescope</h3>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;"><a href="#bio-galileo" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; font-weight: bold; text-decoration: none;" title="Galileo Galilei (ga-lih-LAY-oh), 1564-1642: Italian astronomer and physicist who gathered the first observational evidence for heliocentrism.">Galileo Galilei</a> taught mathematics in <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Pisa (PEE-zah): city in Tuscany, Italy.">Pisa</a> and then <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Padua (PAD-oo-ah): university city in the Republic of Venice.">Padua</a>, in northern Italy, and in 1609 he heard about a new Dutch invention that made distant objects appear closer. He built his own improved version and turned it toward the night sky, something almost no one had done before. What he saw did more damage to the old Earth-centered model than Copernicus's math ever had.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">Galileo found four small points of light circling Jupiter, night after night. Something, at least, clearly did not orbit the Earth. He watched Venus pass through a full cycle of phases, from a thin crescent to a nearly full circle, exactly what Copernicus's model predicted and something the simple geocentric picture could not easily explain. He aimed his telescope at the moon and found it was not a smooth, perfect sphere as ancient philosophy had insisted the heavens must be, but a rough landscape of mountains and craters, not so different from Earth itself.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">None of this was mathematical proof that the Earth moves. But it was <strong>empirical</strong> evidence, gathered by Galileo's own eyes, of a kind no one had been able to collect before. Galileo argued for the Copernican system loudly, and in Italian rather than scholarly Latin, so that far more people could read him. By the time he wrote his most famous book, in 1632, he was living in <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Florence (FLOR-ens): Tuscan capital, seat of the Medici family.">Florence</a>, serving as court mathematician to the Medici family. His <em>Dialogue Concerning the Two Chief World Systems</em> staged a debate between defenders of the old and new cosmos, and it was not subtle about which side Galileo thought had won.</p>
+        <p style="font-size: 17px; color: #1a2340; line-height: 1.65; margin: 0 0 10px 0;">The Catholic Church had already warned Galileo, in 1616, not to teach heliocentrism as established fact. In 1633, it was to <a href="#geo-glossary" style="border-bottom: 1.5px dotted #C7922C; cursor: help; color: #0E1C42; text-decoration: none;" title="Rome (ROHM): seat of the Roman Catholic Church.">Rome</a> that the Inquisition summoned him to answer for defying that warning. Galileo publicly recanted his support for a moving Earth and spent his remaining years under house arrest. He kept working anyway, and his last book, on the physics of motion, would help lay the groundwork for the next figure in this course: Isaac Newton.</p>
+
+        <div style="background: #E8F6FB; border-left: 5px solid #2196D0; border-top: 3px solid #55C8E8; border-radius: 6px; padding: 14px 20px; margin: 14px 0;">
+            <div style="font-size: 11px; color: #1B6A94; margin-bottom: 8px;">&#128161; A CLOSER LOOK AT THE HISTORY</div>
+            <div style="font-size: 17px; color: #0E1C42; line-height: 1.6;">It is tempting to read Galileo's trial as a simple story of science versus religion. Most historians today think that is too neat. The trial mixed real theological disagreement with Galileo's own combative writing style, the wounded pride of a pope who felt mocked by one of the <em>Dialogue's</em> characters, and a Church genuinely unsure how to handle a still-unproven theory. The lesson is not that faith and reason are natural enemies. It is that history rarely reduces to a single simple story, and this one did not either.</div>
+        </div>
+
+        <div class="optima-widget ow-select">
+            <div class="widget-kicker">&#9889; TRY IT &middot; WHAT DID THE EVIDENCE ACTUALLY SHOW?</div>
+            <div class="widget-question">For each piece of evidence below, decide what it actually supported. Some evidence backed the new heliocentric model directly. Some challenged a different old assumption instead. And the old geocentric model was not without evidence of its own.</div>
+
+            <div class="widget-row" data-correct="1" data-fb="Right. A full range of phases is only possible if Venus circles the sun rather than the Earth, which is exactly why this observation mattered so much." data-hint="Think about what would have to be true of Venus's path for it to show every phase from crescent to full, the way the moon does.">
+                <div class="widget-row-prompt">1. Venus, seen through Galileo's telescope, showed a full cycle of phases, from a thin crescent to a full circle.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Supports the geocentric model</button>
+                    <button data-choice="1">Supports the heliocentric model</button>
+                    <button data-choice="2">Challenges the idea that the heavens are perfect and unchanging</button>
+                </div>
+            </div>
+
+            <div class="widget-row" data-correct="2" data-fb="Right. Ancient philosophy held that heavenly bodies were smooth and perfect. A cratered, mountainous moon challenged that assumption directly, apart from the geocentric versus heliocentric question." data-hint="This observation is not really about where Earth sits. Ask what older belief about the heavens it contradicts instead.">
+                <div class="widget-row-prompt">2. The moon's surface, magnified by the telescope, turned out to be rough, mountainous, and pitted with craters.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Supports the geocentric model</button>
+                    <button data-choice="1">Supports the heliocentric model</button>
+                    <button data-choice="2">Challenges the idea that the heavens are perfect and unchanging</button>
+                </div>
+            </div>
+
+            <div class="widget-row" data-correct="1" data-fb="Right. If moons could be seen orbiting Jupiter instead of Earth, then Earth clearly was not the center of every motion in the heavens." data-hint="Ask what this observation proves about whether everything in the sky has to orbit the Earth.">
+                <div class="widget-row-prompt">3. Four small points of light were seen circling Jupiter, night after night, not the Earth.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Supports the geocentric model</button>
+                    <button data-choice="1">Supports the heliocentric model</button>
+                    <button data-choice="2">Challenges the idea that the heavens are perfect and unchanging</button>
+                </div>
+            </div>
+
+            <div class="widget-row" data-correct="0" data-fb="Right. This is worth sitting with: the geocentric model was not a foolish idea people clung to out of stubbornness. It had real, working predictive power for over a thousand years, which is exactly why abandoning it took so much evidence." data-hint="This item is not describing a flaw in the old model. It is describing something the old model actually got right, for a very long time.">
+                <div class="widget-row-prompt">4. For over a thousand years, the geocentric model successfully predicted the positions of the planets well enough for calendars, navigation, and astrology.</div>
+                <div class="widget-options">
+                    <button data-choice="0">Supports the geocentric model</button>
+                    <button data-choice="1">Supports the heliocentric model</button>
+                    <button data-choice="2">Challenges the idea that the heavens are perfect and unchanging</button>
+                </div>
+            </div>
+
+            <button class="widget-reset">Reset</button>
+        </div>
+
+        <div id="bio-galileo" style="background: #FFFFFF; border: 1px solid #D0D9E8; border-radius: 8px; padding: 18px 20px; margin: 16px 0 0 0; display: flex; gap: 16px; flex-wrap: wrap;">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Justus%20Sustermans%20-%20Portrait%20of%20Galileo%20Galilei%2C%201636.jpg" alt="Portrait of Galileo Galilei by Justus Sustermans, 1636" style="width: 110px; height: auto; border: 1px solid #D0D9E8; border-radius: 4px; flex-shrink: 0;" />
+            <div style="flex: 1; min-width: 220px;">
+                <div style="font-size: 11px; color: #c7922c; margin-bottom: 6px;">HISTORICAL FIGURE</div>
+                <div style="font-size: 17px; color: #0E1C42; margin-bottom: 2px;">Galileo Galilei</div>
+                <div style="font-size: 13px; color: #666; margin-bottom: 8px;">ga&#8209;lih&#8209;LAY&#8209;oh ga&#8209;lih&#8209;LAY&#8209;ee &middot; 1564&ndash;1642</div>
+                <div style="font-size: 15px; color: #1a2340; line-height: 1.6;">Galileo was an Italian astronomer, physicist, and mathematician who taught at Pisa and Padua before improving the telescope and turning it on the night sky in 1609. His observations of Jupiter's moons, the phases of Venus, and the rough surface of the moon supplied the first observational evidence for a sun-centered universe. His 1632 book, <em>Dialogue Concerning the Two Chief World Systems</em>, argued openly for Copernicus's model, and it led to his trial before the Roman Inquisition in 1633. He spent his final years under house arrest, still working.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- What You'll Do Next -->
+    <div style="background: #FFFFFF; border-top: 3px solid #0E1C42; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 16px;">&#10145;&#65039; WHAT YOU'LL DO NEXT</div>
+        <div style="display: flex; align-items: flex-start; gap: 14px; margin-bottom: 16px;">
+            <div style="min-width: 34px; height: 34px; border-radius: 50%; background: #0E1C42; color: #fff; font-size: 16px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">1</div>
+            <div>
+                <div style="font-size: 18px; color: #0e1c42; margin-bottom: 4px;"><strong>1.4 Reading Quiz</strong></div>
+                <div style="font-size: 16px; color: #1a2340; line-height: 1.55;">A short quiz covering this week's two lessons. Your teacher has not published this assignment yet; check back once it appears in your course.</div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 14px;">
+            <div style="min-width: 34px; height: 34px; border-radius: 50%; background: #0E1C42; color: #fff; font-size: 16px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">2</div>
+            <div>
+                <div style="font-size: 18px; color: #0e1c42; margin-bottom: 4px;"><strong>1.5 Primary Source: Galileo's <em>Dialogue</em></strong></div>
+                <div style="font-size: 16px; color: #1a2340; line-height: 1.55;">Next, you will read Galileo's own words defending the case you just studied. This page is not published yet; check back once it appears in your course.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wrap-up -->
+    <div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+        <div style="font-size: 11px; color: #c7922c; margin-bottom: 12px;">&#128170; GOVERNING YOUR OWN MIND</div>
+        <p style="font-size: 18px; color: #1a2340; line-height: 1.65; margin: 0;">Copernicus and Galileo did not have modern data or modern instruments backing them from the start. What they had was a willingness to trust careful reasoning and their own observations over an inherited system nearly everyone else accepted without question. That is a kind of self-government: not obedience to whatever authority says, and not stubborn defiance for its own sake, but the discipline to test a belief honestly and change your mind when the evidence earns it. Notice, too, that neither man worked alone or from nothing. Copernicus built on centuries of careful naked-eye astronomy, and Galileo built on Copernicus. Self-government, in this sense, was never really solitary. You will be asked to do a smaller version of that same work throughout this course, starting with Galileo's own words in this week's primary source.</p>
+    </div>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; HS WORLD HISTORY: ENLIGHTENMENT TO PRESENT &middot; Quarter 1 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">Lesson 1.3 &middot; Copernicus and Galileo</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</div>
+
+<!-- ===== WIDGET RUNTIME (byte-consistent with references/widgets.md) ===== -->
+<script>
+(function () {
+  document.addEventListener('click', function (e) {
+    var reset = e.target.closest('.widget-reset');
+    if (reset) {
+      var w = reset.closest('.optima-widget');
+      w.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected', 'correct', 'incorrect'); });
+      w.querySelectorAll('.widget-feedback').forEach(function (f) { f.classList.remove('show'); f.textContent = ''; });
+      w.querySelectorAll('.row-feedback').forEach(function (f) { f.remove(); });
+      return;
+    }
+    var rBtn = e.target.closest('.ow-reflect .widget-options button');
+    if (rBtn) {
+      var rw = rBtn.closest('.optima-widget');
+      rw.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected'); });
+      rBtn.classList.add('selected');
+      var fb = rw.querySelector('.widget-feedback');
+      fb.textContent = rBtn.dataset.response || '';
+      fb.classList.add('show');
+      return;
+    }
+    var sBtn = e.target.closest('.ow-select .widget-row .widget-options button, .ow-scale .widget-row .widget-options button');
+    if (sBtn) {
+      var row = sBtn.closest('.widget-row');
+      var correct = row.dataset.correct;
+      row.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected', 'correct', 'incorrect'); });
+      var right = sBtn.dataset.choice === correct;
+      sBtn.classList.add(right ? 'correct' : 'incorrect');
+      var text = right ? (sBtn.dataset.fb || row.dataset.fb || 'Right.') : (sBtn.dataset.fb || row.dataset.hint || 'Not quite. Try again.');
+      var rf = row.querySelector('.row-feedback') || row.appendChild(document.createElement('div'));
+      rf.className = 'row-feedback ' + (right ? 'correct' : 'incorrect');
+      rf.textContent = text;
+      return;
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
